@@ -1,0 +1,6 @@
+---
+- name: Building the quantlib code samples
+  hosts: quantlib-server
+  become: true
+  roles:
+  - install-quantlib-env
