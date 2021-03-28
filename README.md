@@ -1,5 +1,5 @@
 # QuantLib-Demo
-A play pit to get the various Quantlib code examples working.
+A play pit to get the various Quantlib code examples working on Debian Linux.
 
 # Setup Instructions
 
