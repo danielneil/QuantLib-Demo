@@ -12,6 +12,5 @@ A play pit to get the various Quantlib code examples working.
 4. Open a terminal, and run:
 ```
 git clone https://github.com/danielneil/QuantLib-Demo.git && cd QuantLib-Demo && ./build.sh
-
 ```
 5. The code samples are executed as part of the build.
