@@ -1,28 +1,32 @@
 ---
-- name: Installing libquantlib0v5 - Quantitative Finance Library -- library package
-  apt:
-   name: libquantlib0v5
-   state: latest
 
-- name: Installing quantlib-examples - Quantitative Finance Library -- example binaries
-  apt:
-   name: quantlib-examples
-   state: latest
+# The commented out code is the Quantlib installation from the apt repos.
+# The uncommented code below is the Quantlib installation of source.
 
-- name: Installing quantlib-refman-html - Quantitative Finance Library -- reference manual in html
-  apt:
-   name: quantlib-refman-html
-   state: latest
+# - name: Installing libquantlib0v5 - Quantitative Finance Library -- library package
+#   apt:
+#    name: libquantlib0v5
+#    state: latest
 
-- name: Installing quantlib-python - Python3 bindings for the Quantlib Quantitative Finance library
-  apt:
-   name: quantlib-python
-   state: latest
+# - name: Installing quantlib-examples - Quantitative Finance Library -- example binaries
+#   apt:
+#    name: quantlib-examples
+#    state: latest
 
-- name: Installing r-cran-rquantlib - GNU R package interfacing the QuantLib finance library
-  apt: 
-   name: r-cran-rquantlib
-   state: latest
+# - name: Installing quantlib-refman-html - Quantitative Finance Library -- reference manual in html
+#   apt:
+#    name: quantlib-refman-html
+#    state: latest
+
+# - name: Installing quantlib-python - Python3 bindings for the Quantlib Quantitative Finance library
+#   apt:
+#    name: quantlib-python
+#    state: latest
+# 
+# - name: Installing r-cran-rquantlib - GNU R package interfacing the QuantLib finance library
+#   apt: 
+#    name: r-cran-rquantlib
+#    state: latest
 
 - name: Installing libboost-all-dev
   apt:
