@@ -24,7 +24,7 @@
    name: r-cran-rquantlib
    state: latest
 
-- name: Installing cmake
+- name: Installing libboost-all-dev
   apt:
-   name: cmake
+   name:  libboost-all-dev
    state: latest
