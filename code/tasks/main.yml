@@ -1,0 +1,16 @@
+---
+# tasks file for build-code-samples
+
+- name: Copying the QuantLib zip file to the build machine
+  copy:
+   src: QuantLib-1.21.tar.gz
+   dest: /tmp
+
+- name: Unarchive the above
+  unarchive:
+   src: /tmp/QuantLib-1.21.tar.gz
+   dest: /tmp
+   remote_src: True
+
+- name: Running ./configure && make && make install
+  shell: cd /tmp/QuantLib-1.21 && ./configure && make && make install
