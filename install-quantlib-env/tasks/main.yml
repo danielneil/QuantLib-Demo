@@ -1,7 +1,6 @@
 ---
 
 # The commented out code is the Quantlib installation from the apt repos.
-# The uncommented code below is the Quantlib installation of source.
 
 # - name: Installing libquantlib0v5 - Quantitative Finance Library -- library package
 #   apt:
