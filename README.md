@@ -1,5 +1,5 @@
 # QuantLib-Demo
-A play pit to get the various Quantlib code examples working on Debian Linux.
+A play pit to have the Quantlib code examples working on Debian Linux for later reference.
 
 # Setup Instructions
 
@@ -13,4 +13,3 @@ A play pit to get the various Quantlib code examples working on Debian Linux.
 ```
 git clone https://github.com/danielneil/QuantLib-Demo.git && cd QuantLib-Demo && ./build.sh
 ```
-5. The code samples are executed as part of the build.
