@@ -23,3 +23,8 @@
   apt: 
    name: r-cran-rquantlib
    state: latest
+
+- name: Installing cmake
+  apt:
+   name: cmake
+   state: latest
