@@ -1,9 +1,0 @@
----
-# tasks file for build-code-samples
-
-- name: Copying the code samples to /tmp
-  copy:
-   file: 
-
-- name: Running ./configure && make && make install
-  shell: 
