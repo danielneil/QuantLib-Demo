@@ -1,5 +1,8 @@
 # QuantLib-Demo
-A sandpit to get the Quantlib library built on Debian Linux.
+
+A sandpit to get the Quantlib library built (from source) on Debian Linux.
+
+One of the tasks details the installation of the library using apt, but it commented out.
 
 # Setup Instructions
 
