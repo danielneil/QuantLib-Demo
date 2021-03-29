@@ -12,5 +12,5 @@ A sandpit to get the Quantlib library built on Debian Linux.
 4. Open a terminal, and run:
 ```
 git clone https://github.com/danielneil/QuantLib-Demo.git && cd QuantLib-Demo && ./build.sh
+# Takes a while to build.
 ```
-5. The code samples are executed as part of the build.
