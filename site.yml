@@ -1,5 +1,5 @@
 ---
-- name: Building the quantlib code samples
+- name: Building the quantlib library
   hosts: quantlib-server
   become: true
   roles:
